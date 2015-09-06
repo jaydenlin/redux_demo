@@ -1,0 +1,31 @@
+{
+  "name": "redux-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --config webpack.config.js --content-base src/ --colors --hot --progress --inline --watch",
+    "build":"webpack -p --config webpack.config.js --progress --profile --colors"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Jayden Lin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.16.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.13.3",
+    "react-redux": "^1.0.1",
+    "redux": "^1.0.1",
+    "webpack": "^1.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
